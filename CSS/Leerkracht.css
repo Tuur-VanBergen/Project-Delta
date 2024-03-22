@@ -1,0 +1,22 @@
+/*
+    Colourscheme
+    Dark blue - #2c318e
+    Pink - #ef4f90
+    Light red - #f37576
+    Yellow - #ffcd4b
+*/
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+    font-family: 'Crete Round', serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    /* Light Grey */
+}
