@@ -64,12 +64,17 @@ nav ul li a:active {
 
 footer {
     font-size: 1rem;
-
+    position: absolute;
+    bottom: 3rem;
 }
 
-footer p:nth-child(1) {
-    border: 1px solid #000;
+input {
     border-radius: 20px;
+    position: relative;
+}
+
+footer p {
+    position: relative;
 }
 
 footer a {
