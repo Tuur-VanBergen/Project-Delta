@@ -45,7 +45,7 @@ header ul li {
     min-height: 100px;
 }
 
-header ul li a {
+header ul li button {
     color: #fff;
     text-decoration: none;
     transition: 0.5s;
@@ -54,31 +54,26 @@ header ul li a {
     border-radius: 20px;
 }
 
-nav ul li a:hover,
-nav ul li a:focus,
-nav ul li a:active {
+nav ul li button:hover,
+nav ul li button:focus,
+nav ul li button:active {
     box-shadow: 5px 5px 10px rgba(111, 111, 111, 0.5);
     transform: scale(1.03);
     background-color: #ffcd4b;
 }
 
+
 footer {
     font-size: 1rem;
-    position: absolute;
-    bottom: 3rem;
+    background-color: #f37576;
+    color: inherit;
 }
 
-input {
+footer input {
     border-radius: 20px;
-    position: relative;
 }
 
-footer p {
-    position: relative;
-}
-
-footer a {
-    text-align: center;
+footer button {
     color: #fff;
     text-decoration: none;
     transition: 0.5s;
@@ -87,9 +82,9 @@ footer a {
     border-radius: 20px;
 }
 
-footer a:hover,
-footer a:focus,
-footer a:active {
+footer button:hover,
+footer button:focus,
+footer button:active {
     box-shadow: 5px 5px 10px rgba(111, 111, 111, 0.5);
     transform: scale(1.03);
     background-color: #ffcd4b;
