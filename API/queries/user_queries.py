@@ -1,3 +1,5 @@
-create = "INSERT INTO user (username) VALUES (%s)"
-delete = "DELETE FROM user WHERE username = %s"
-check = "SELECT COUNT(*) FROM users WHERE username = %s"
+create = "INSERT INTO user (username) VALUES (%s);"
+delete = "DELETE FROM user WHERE username = %s;"
+check = "SELECT COUNT(*) FROM user WHERE username = %s;"
+get = "SELECT * FROM user WHERE username = %s;"
+room = "UPDATE user SET room = %s WHERE username = %s;"
