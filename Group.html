@@ -16,7 +16,7 @@
     <!--StyleSheet Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!--StyleSheet selfmade-->
-    <link rel="stylesheet" href="CSS/Registratie.css">
+    <link rel="stylesheet" href="CSS/Group.css">
 </head>
 
 <body>
@@ -27,44 +27,38 @@
             </h1>
             <nav class="col-12 col-lg-4 offset-lg-2">
                 <ul class="row p-3 justify-content-center align-items-center">
-                    <li class="col-12 d-flex p-1 justify-content-center align-items-center"><button href="#" class="p-3 col-12">Exit</button></li>
+                    <li class="col-12 d-flex p-1 justify-content-center align-items-center"><button href="#" class="p-3 col-12">LEAVE</button></li>
                 </ul>
             </nav>
         </header>
         <article class="row justify-content-center align-items-center my-1">
             <section class="col-12 col-lg-6 my-1">
-                <h2>Registration</h2>
-                <h3><i class="fa-solid fa-triangle-exclamation text-primary"></i> DO NOT PUT YOUR REAL LOGIN INTO THE FIELDS <i class="fa-solid fa-triangle-exclamation text-primary"></i></h3>
+                <h2>Make a Group</h2>
                 <form id="registerForm">
                     <div class="mb-3">
-                        <label for="username" class="form-label">Username</label>
+                        <label for="username" class="form-label">Group name</label>
                         <input type="text" class="form-control p-2" id="username" name="username">
                     </div>
                     <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
+                        <label for="password" class="form-label">Code</label>
                         <input type="password" class="form-control p-2" id="password" name="password">
                     </div>
                     <div class="mb-3">
-                        <label for="password" class="form-label">Re-enter Password</label>
+                        <label for="password" class="form-label">Re-enter Code</label>
                         <input type="password" class="form-control p-2" name="password">
                     </div>
-                    <button type="submit" class="btn btn-primary my-1 p-2">Register</button>
+                    <button type="submit" class="btn btn-primary my-1 p-2">Create</button>
                 </form>
             </section>
             <hr class="d-block d-lg-none">
             <section id="loginSection" class="col-12 col-lg-6 my-1 transition-section hidden-section">
-                <h2>Login</h2>
-                <h3><i class="fa-solid fa-triangle-exclamation text-primary"></i> DO NOT PUT YOUR REAL LOGIN INTO THE FIELDS <i class="fa-solid fa-triangle-exclamation text-primary"></i></h3>
+                <h2>Join a Group</h2>
                 <form id="loginForm">
                     <div class="mb-3">
-                        <label for="loginUsername" class="form-label">Username</label>
-                        <input type="text" class="form-control p-2" id="loginUsername" name="loginUsername">
-                    </div>
-                    <div class="mb-3">
-                        <label for="loginPassword" class="form-label">Password</label>
+                        <label for="loginPassword" class="form-label">Code</label>
                         <input type="password" class="form-control p-2" id="loginPassword" name="loginPassword">
                     </div>
-                    <button type="submit" class="btn btn-primary my-1 p-2">Login</button>
+                    <button type="submit" class="btn btn-primary my-1 p-2">Join</button>
                 </form>
             </section>
         </article>
