@@ -1,3 +1,7 @@
 create = "INSERT INTO rooms (name, owner) VALUES (%s, %s);"
-delete = "DELETE FROM rooms WHERE name = %s;"
+delete1 = "UPDATE user SET room = NULL WHERE room = %s;"
+delete2 = "DELETE FROM messages WHERE room_name = %s;"
+delete3 = "DELETE FROM rooms WHERE name = %s;"
 get = "SELECT * FROM rooms WHERE name = %s;"
+set_public = "UPDATE rooms SET public_chat = 1 WHERE name = %s;"
+set_private = "UPDATE rooms SET public_chat = 0 WHERE name = %s;"
