@@ -1,9 +1,15 @@
 import mysql.connector
+import config
 
 
 def connect_to_database():
     try:
-        connection = mysql.connector.connect(host='localhost', user='root', password='1234', database='project delta')
+        connection = mysql.connector.connect(
+            host=config.db_hostname,
+            user=config.db_username,
+            password=config.db_password,
+            database="projectdelta",
+        )
         return connection
     except mysql.connector.Error as error:
         print("Error connecting to database:", error)
