@@ -72,7 +72,6 @@ def send_message(room_name: str, username: str,  message: str):
     success = database.execute_sql_query(mq.send, (room_name, username, message,))
     if success:
         return {"status": "message sent"}
-
     return {"status": "message not sent"}
 
 

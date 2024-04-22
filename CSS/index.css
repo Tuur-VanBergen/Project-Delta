@@ -26,8 +26,6 @@ body {
 header {
     background-color: #ffcd4b;
     color: inherit;
-    border-left: 3px solid #000;
-    border-right: 3px solid #000;
     border-bottom: 3px solid #000;
 }
 
@@ -39,7 +37,7 @@ article {
 
 footer {
     background-color: #ffcd4b;
-    border: 3px solid #000;
+    border-top: 3px solid #000;
 }
 
 
@@ -123,6 +121,11 @@ input {
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.7);
     transform: scale(1.01);
 }
+
+.container {
+    min-height: 100vh;
+}
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {}
