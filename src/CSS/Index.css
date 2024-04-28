@@ -102,7 +102,7 @@ h2 {
     font-size: 3rem;
 }
 
-input {
+input, button {
     border-radius: 20px;
 }
 
