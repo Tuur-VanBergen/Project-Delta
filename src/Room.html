@@ -48,7 +48,7 @@
                     <h3 class="mb-3 col-12">Create a new group</h3>
                     <p class="col-12 p-2 mt-1">
                         <span class="row">
-                            <button type="submit" class="col-12 p-2 px-3 submit">Create</button>
+                            <button id="createButton" class="col-12 p-2 px-3 submit">Create</button>
                         </span>
                     </p>
                 </div>
@@ -56,17 +56,17 @@
             <!-- Join Group Form -->
             <section class="col-12 col-lg-6 d-flex align-items-center justify-content-center flex-column">
                 <div class="row mx-2">
-                    <h3 class="mb-3 col-12">Join an Existing Group</h3>
+                    <h3 class="mb-3 col-12">Join an Existing Room</h3>
                     <div class="col-12 p-2 mt-1">
                         <div class="row">
-                            <h4 class="col-12 p-2 px-3 m-0">Enter group code</h4>
-                            <label id="error" for="username">Group doesn't exists</label>
-                            <input type="text" class="form-control col-12 p-2 px-3" id="groupCode" placeholder="e.g. 5643597153" required>
+                            <h4 class="col-12 p-2 px-3 m-0">Enter room code</h4>
+                            <label id="error" for="roomCode">Room doesn't exists</label>
+                            <input type="text" class="form-control col-12 p-2 px-3" id="roomCode" placeholder="e.g. 5643597153" required>
                         </div>
                     </div>
                     <div class="col-12 p-2">
                         <div class="row">
-                            <button type="submit" class="col-12 p-2 px-3 submit">Join</button>
+                            <button type="submit" id="joinButton" class="col-12 p-2 px-3 submit">Join</button>
                         </div>
                     </div>
                 </div>
@@ -89,6 +89,7 @@
             </div>
         </footer>
     </div>
+<script src="js/room.js"></script>
 </body>
 
 </html>

@@ -4,3 +4,4 @@
 .env
 API/.vercel
 .vercel
+node_modules
