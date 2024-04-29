@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!--    global StyleSheet    -->
-    <link rel="stylesheet" href="../CSS/Index.css">
+    <link rel="stylesheet" href="CSS/Index.css">
 
     <!--    Custom StyleSheet    -->
-    <link rel="stylesheet" href="../CSS/Students.css">
+    <link rel="stylesheet" href="CSS/Students.css">
 
 
 </head>
@@ -32,23 +32,14 @@
 <body>
     <div class="container d-flex flex-column justify-content-between">
         <header class="row justify-content-center align-items-center p-2">
-            <h1 class="col-12 col-lg-6 d-flex p-4"><img src="assets/Index/logoPS1.svg" alt="Logo"></h1>
-            <nav class="col-12 col-lg-6">
+            <h1 class="col-12 col-lg-7 d-flex p-4"><img src="assets/Index/logoPS1.svg" alt="Logo"></h1>
+            <nav class="col-12 col-lg-5">
                 <ul class="row p-0">
-                    <li class="col-12 col-lg-4 d-flex justify-content-center align-items-center p-2">
+                    <li class="col-12 d-flex justify-content-center align-items-center p-2">
                         <a href="Index.html" class="col-12 p-2 m-0"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a>
                     </li>
-                    <li class="col-12 col-lg-4 d-flex justify-content-center align-items-center p-2">
+                    <li class="col-12 d-flex justify-content-center align-items-center p-2">
                         <a href="Room.html" class="col-12 p-2 m-0"><i class="fa-solid fa-user-group"></i>&nbsp;Room</a>
-                    </li>
-                    <li class="col-12 col-lg-4 d-flex justify-content-center align-items-center p-2">
-                        <a href="Registration.html" class="col-12 p-2 m-0"><i class="fa-solid fa-pen"></i>&nbsp;Sign&nbsp;in</a>
-                    </li>
-                    <li class="col-12 col-lg-6 d-flex justify-content-center align-items-center p-2">
-                        <a href="Crew.html" class="col-12 p-2 m-0"><i class="fa-solid fa-people-group"></i>&nbsp;CREW</a>
-                    </li>
-                    <li class="col-12 col-lg-6 d-flex justify-content-center align-items-center p-2">
-                        <a href="Teachers.html" class="col-12 p-2 m-0"><i class="fa-solid fa-chalkboard-user"></i>&nbsp;TEACHER</a>
                     </li>
                 </ul>
             </nav>
@@ -59,9 +50,16 @@
                     <h2 class="col-12">
                         Students page
                     </h2>
-                    <p class="col-12">
-                        This page is momentarily used for developers to quickly navigate between the different pages.
-                    </p>
+                    <div class="col-12 m-0 p-2 mt-1">
+                        <div class="row">
+                            <input type="text" name="question" id="question" class="col-12 p-2 px-3" placeholder="Type your question here..." required>
+                        </div>
+                    </div>
+                    <div class="col-12 p-2">
+                        <div class="row">
+                            <button id="questionSend" class="submit col-12 p-2 px-3">Send</button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </article>
@@ -76,7 +74,7 @@
                         <a href="Index.html" class="col-12 p-2 m-0"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a>
                     </li>
                     <li class=" col-12 col-md-4 d-flex p-2">
-                        <a href="https://thomasmore.be/nl" class="col-12 p-2 m-0"><i class="fa-solid fa-school"></i>&nbsp;School</a>
+                        <a href="Crew.html" class="col-12 p-2 m-0"><i class="fa-solid fa-people-group"></i>&nbsp;CREW</a>
                     </li>
                 </ul>
             </div>

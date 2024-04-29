@@ -21,6 +21,7 @@ body {
     /* Light Grey */
     color: #000;
     font-size: 1rem;
+    min-width: 300px;
 }
 
 header {
@@ -84,7 +85,8 @@ footer ul li a:focus {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Crete Round', serif;
 }
 
@@ -102,7 +104,8 @@ h2 {
     font-size: 3rem;
 }
 
-input, button {
+input,
+button {
     border-radius: 20px;
 }
 
@@ -126,6 +129,12 @@ input, button {
     min-height: 100vh;
 }
 
+#error {
+    opacity: 0%;
+    color: red;
+    background-color: inherit;
+    font-weight: bold;
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {}

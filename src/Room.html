@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!--    global StyleSheet    -->
-    <link rel="stylesheet" href="../CSS/Index.css">
+    <link rel="stylesheet" href="CSS/Index.css">
 
     <!--    Custom StyleSheet    -->
-    <link rel="stylesheet" href="../CSS/Room.css">
+    <link rel="stylesheet" href="CSS/Room.css">
 
 
 </head>
@@ -32,35 +32,44 @@
 <body>
     <div class="container d-flex flex-column justify-content-between">
         <header class="row justify-content-center align-items-center p-2">
-            <h1 class="col-12 col-lg-6 d-flex p-4"><img src="assets/Index/logoPS1.svg" alt="Logo"></h1>
-            <nav class="col-12 col-lg-6">
+            <h1 class="col-12 col-lg-7 d-flex p-4"><img src="assets/Index/logoPS1.svg" alt="Logo"></h1>
+            <nav class="col-12 col-lg-5">
                 <ul class="row p-0">
-                    <li class="col-12 col-lg-4 d-flex justify-content-center align-items-center p-2">
+                    <li class="col-12 d-flex justify-content-center align-items-center p-2">
                         <a href="Index.html" class="col-12 p-2 m-0"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a>
-                    </li>
-                    <li class="col-12 col-lg-4 d-flex justify-content-center align-items-center p-2">
-                        <a href="Registration.html" class="col-12 p-2 m-0"><i class="fa-solid fa-pen"></i>&nbsp;Sign&nbsp;in</a>
-                    </li>
-                    <li class="col-12 col-lg-4 d-flex justify-content-center align-items-center p-2">
-                        <a href="Crew.html" class="col-12 p-2 m-0"><i class="fa-solid fa-people-group"></i>&nbsp;CREW</a>
-                    </li>
-                    <li class="col-12 col-lg-6 d-flex justify-content-center align-items-center p-2">
-                        <a href="Teachers.html" class="col-12 p-2 m-0"><i class="fa-solid fa-chalkboard-user"></i>&nbsp;TEACHER</a>
-                    </li>
-                    <li class="col-12 col-lg-6 d-flex justify-content-center align-items-center p-2">
-                        <a href="Students.html" class="col-12 p-2 m-0"><i class="fa-solid fa-graduation-cap"></i>&nbsp;STUDENT</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <article class="row p-5 flex-grow-1 ">
-            <section class="col-12 d-flex align-items-center justify-content-center flex-column">
-                <h2>
-                    Room page
-                </h2>
-                <p>
-                    This page is momentarily used for developers to quickly navigate between the different pages.
-                </p>
+        <article class="row p-5 flex-grow-1 justify-content-between">
+            <!-- Create Group Form -->
+            <section class="col-12 col-lg-6 d-flex justify-content-center flex-column">
+                <div id="createGroupForm" class="row mx-2">
+                    <h3 class="mb-3 col-12">Create a new group</h3>
+                    <p class="col-12 p-2 mt-1">
+                        <span class="row">
+                            <button type="submit" class="col-12 p-2 px-3 submit">Create</button>
+                        </span>
+                    </p>
+                </div>
+            </section>
+            <!-- Join Group Form -->
+            <section class="col-12 col-lg-6 d-flex align-items-center justify-content-center flex-column">
+                <div class="row mx-2">
+                    <h3 class="mb-3 col-12">Join an Existing Group</h3>
+                    <div class="col-12 p-2 mt-1">
+                        <div class="row">
+                            <h4 class="col-12 p-2 px-3 m-0">Enter group code</h4>
+                            <label id="error" for="username">Group doesn't exists</label>
+                            <input type="text" class="form-control col-12 p-2 px-3" id="groupCode" placeholder="e.g. 5643597153" required>
+                        </div>
+                    </div>
+                    <div class="col-12 p-2">
+                        <div class="row">
+                            <button type="submit" class="col-12 p-2 px-3 submit">Join</button>
+                        </div>
+                    </div>
+                </div>
             </section>
         </article>
         <footer class="row">
@@ -74,7 +83,7 @@
                         <a href="Index.html" class="col-12 p-2 m-0"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a>
                     </li>
                     <li class=" col-12 col-md-4 d-flex p-2">
-                        <a href="https://thomasmore.be/nl" class="col-12 p-2 m-0"><i class="fa-solid fa-school"></i>&nbsp;School</a>
+                        <a href="Crew.html" class="col-12 p-2 m-0"><i class="fa-solid fa-people-group"></i>&nbsp;CREW</a>
                     </li>
                 </ul>
             </div>
