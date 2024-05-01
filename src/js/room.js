@@ -21,9 +21,7 @@ const createRoom = (username) => {
     fetch(url, options)
         .then((response) => response.json())
         .then((data) => {
-            console.log(data);
             if (data.status === "room created") {
-                console.log(data);
                 window.location.replace('https://p-delta.netlify.app/teachers?username=' + username + '&room_name=' + data.room);
             } else {
                 let error = document.getElementById("error");
@@ -37,7 +35,6 @@ const joinRoom = (username) => {
     const roomName = document.getElementById('roomCode').value;
     // build request body
     const body = { "username": username , "room_name": roomName};
-    console.log(body);
     // URL to send data to
     const url = "https://project-delta-backend.vercel.app/join_room";
     // options for the fetch() methode
@@ -53,7 +50,6 @@ const joinRoom = (username) => {
     fetch(url, options)
         .then((response) => response.json())
         .then((data) => {
-            console.log(data);
             if (data.status === "room joined") {
                 window.location.replace('https://p-delta.netlify.app/students?username=' + username + '&room_name=' + roomName);
             } else {
