@@ -1,0 +1,30 @@
+/*
+    Colourscheme
+    Dark blue - #2c318e
+    Pink - #ef4f90
+    Light red - #f37576
+    Yellow - #ffcd4b
+*/
+
+.messageBox {
+    margin: 2em;
+    position: relative;
+}
+
+.username {
+    padding-left: 10px;
+    text-align: left;
+    color: #777;
+    position: absolute;
+    top: -25px;
+}
+
+.message {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 4px 8px;
+    text-align: left;
+    background-color: #ef4f90;
+    border-radius: 20px;
+}

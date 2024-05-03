@@ -32,8 +32,8 @@
 <body>
     <div class="container d-flex flex-column justify-content-between">
         <header class="row justify-content-center align-items-center p-2">
-            <h1 class="col-12 col-lg-7 d-flex p-4"><img src="assets/Index/logoPS1.svg" alt="Logo"></h1>
-            <nav class="col-12 col-lg-5">
+            <h1 class="col-12 col-md-8 offsett-md-2 col-lg-7 offset-lg-0 d-flex p-4"><img src="assets/Index/logoPS1.svg" alt="Logo"></h1>
+            <nav class="col-12 col-md-8 offsett-md-2 col-lg-2 offsett-lg-0">
                 <ul class="row p-0">
                     <li class="col-12 d-flex justify-content-center align-items-center p-2">
                         <a href="Index.html" class="col-12 p-2 m-0"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a>
@@ -60,7 +60,7 @@
                     <div class="col-12 p-2 mt-1">
                         <div class="row">
                             <h4 class="col-12 p-2 px-3 m-0">Enter room code</h4>
-                            <label id="error" for="roomCode">Room doesn't exists</label>
+                            <label id="error" for="roomCode" class="col-8 offset-2 p-1">!Room doesn't exists!</label>
                             <input type="text" class="form-control col-12 p-2 px-3" id="roomCode" placeholder="e.g. 5643597153" required>
                         </div>
                     </div>
@@ -76,20 +76,17 @@
             <p class="col-12 p-2 m-0">&copy;Group&nbsp;4 - 1&nbsp;ITF&nbsp;02 - Thomas&nbsp;More</p>
             <div class="col-12">
                 <ul class="row p-0">
-                    <li class="col-12 col-md-4 d-flex p-2">
+                    <li class="col-12 col-md-5 offset-md-1 d-flex p-2">
                         <a href="#" class="col-12 p-2 m-0"><i class="fa-solid fa-arrow-up"></i>&nbsp;TOP</a>
                     </li>
-                    <li class=" col-12 col-md-4 d-flex p-2">
+                    <li class=" col-12 col-md-5 d-flex p-2">
                         <a href="Index.html" class="col-12 p-2 m-0"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a>
-                    </li>
-                    <li class=" col-12 col-md-4 d-flex p-2">
-                        <a href="Crew.html" class="col-12 p-2 m-0"><i class="fa-solid fa-people-group"></i>&nbsp;CREW</a>
                     </li>
                 </ul>
             </div>
         </footer>
     </div>
-<script src="js/room.js"></script>
+    <script src="js/room.js"></script>
 </body>
 
 </html>

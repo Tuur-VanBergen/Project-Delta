@@ -20,13 +20,16 @@ function fetchData() {
                     const sender = document.createElement("p")
                     sender.innerHTML = message.username
                     sender.classList.add("username");
+                    sender.classList.add("col-12");
                     const newMessage = document.createElement("p")
                     newMessage.innerHTML = message.message;
                     newMessage.classList.add("message");
+                    newMessage.classList.add("col-auto");
                     const newMessageBox = document.createElement("div");
                     newMessageBox.appendChild(sender);
                     newMessageBox.appendChild(newMessage);
                     newMessageBox.classList.add("messageBox");
+                    newMessageBox.classList.add("row");
                     messagebox.appendChild(newMessageBox);
                 }
             }
