@@ -29,5 +29,8 @@ const sendMessage = () => {
 
 
 sendButton.addEventListener("click", function () {
-    sendMessage()
+    const message = document.getElementById('question');
+    if (message.value !== "") {
+        sendMessage()
+    }
 })
