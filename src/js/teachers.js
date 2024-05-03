@@ -5,7 +5,7 @@ const messagebox = document.getElementById('messages');
 let messages = [];
 document.getElementById('title').innerHTML = "Room code: " + room_name;
 function fetchData() {
-    const url = "https://project-delta-backend.vercel.app/get_messages?username=" + username + "&room_name=" + room_name;
+    const url = "https://project-delta-backend.vercel.app/get_messages?room_name=" + room_name;
     const options = {
         method: 'GET'
     };
