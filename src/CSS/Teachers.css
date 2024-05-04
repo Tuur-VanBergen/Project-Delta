@@ -5,25 +5,33 @@
     Light red - #f37576
     Yellow - #ffcd4b
 */
+#messages {
+    overflow-y: auto;
+    height: 310px;
+    border: 3px solid #2c318e;
+    padding: 0 1em 1em;
+    border-radius: 5px;
+}
 
 .messageBox {
-    margin: 2em;
     position: relative;
 }
 
 .username {
-    padding-left: 10px;
     text-align: left;
     color: #777;
-    position: absolute;
-    top: -25px;
+    position: relative;
+    top: 15px;
+    left: -3px;
+    margin-top: 1px;
 }
 
 .message {
+    margin: 0;
     position: relative;
     top: 0;
     left: 0;
-    padding: 4px 8px;
+    padding: 5px 10px;
     text-align: left;
     background-color: #ef4f90;
     border-radius: 20px;

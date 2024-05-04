@@ -18,6 +18,16 @@
     color: #fff;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #ccc;
+}
+
 html {
     scroll-behavior: smooth;
 }
